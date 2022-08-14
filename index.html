@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="tictactoe.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <style>
+
+
+    </style>
+
+    <h1>TIC TAC TOE</h1>
+    <br>
+    <p>To start, tap any box.</p>
+    <p>Player 1 is X <br> Player 2 is O</p>
+   
+</head>
+<body>
+
+    <div class= "grid">
+    <!--tic tac toe grid-->
+
+    <input type="text" id="box1" onclick=
+            "myfunction3(); myfunction();" readonly>
+   
+        <input type="text" id="box2" onclick=
+            "myfunction4(); myfunction();" readonly>
+   
+        <input type="text" id="box3" onclick=
+            "myfunction5(); myfunction();" readonly>
+   
+        <input type="text" id="box4" onclick=
+            "myfunction6(); myfunction();" readonly>
+               
+        <input type="text" id="box5" onclick=
+            "myfunction7(); myfunction();" readonly>
+   
+        <input type="text" id="box6" onclick=
+            "myfunction8(); myfunction();" readonly>
+   
+        <input type="text" id="box7" onclick=
+            "myfunction9(); myfunction();" readonly>
+   
+        <input type="text" id="box8" onclick=
+            "myfunction10();myfunction();" readonly>
+   
+        <input type="text" id="box9" onclick=
+            "myfunction11();myfunction();" readonly>
+
+            <br><br>
+        <!--Reset Button-->
+        <button id="reset" onclick="myfunction2()">
+        RESET
+        </button>
+
+    </div>
+
+    <div>
+
+        <br><br>
+
+        <!--Show player's turn-->
+        <p id="turn"></p>
+
+    </div>
+
+
+
+
+
+</body>
+
+
+   
+  
+</html>

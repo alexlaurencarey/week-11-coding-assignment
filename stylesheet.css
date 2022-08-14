@@ -1,0 +1,52 @@
+h1 {
+    color: hotpink;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: darkslategray;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*grid*/
+
+.grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+}
+
+
+#box1, #box2, #box3, #box4, #box5, 
+#box6, #box7, #box8, #box9 {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: 2px solid hotpink;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+    font-color: hotpink;
+}
+
+#reset {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: hotpink;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+

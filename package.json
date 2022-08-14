@@ -1,0 +1,22 @@
+{
+  "name": "week-11",
+  "version": "1.0.0",
+  "description": "Tic Tac Toe game",
+  "main": "tictactoe.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlaurencarey/week-11-coding-assignment.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Alexandra Carey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlaurencarey/week-11-coding-assignment/issues"
+  },
+  "homepage": "https://github.com/alexlaurencarey/week-11-coding-assignment#readme"
+}
